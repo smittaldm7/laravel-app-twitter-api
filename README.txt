@@ -35,6 +35,3 @@ DB tables
 For regular API searches we are storing in the DB. 
 IF the user exists, we add just the tweet. Otherwise we add the user and the tweet.
 
-
-
-Haven't done UI part completely
