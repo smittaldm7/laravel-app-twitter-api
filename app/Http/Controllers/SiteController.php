@@ -338,6 +338,14 @@ exit;*/
 	}
 	
 	
+
+	public function pakoda()
+	{
+		$users = DB::select('SELECT * FROM twitter_users tu INNER JOIN tweets t ON tu.id = t.twitter_user_id where tu.id > 1');
+
+		echo '<pre>';
+		print_r($users);
+	}
 	
 	
 

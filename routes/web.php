@@ -29,3 +29,5 @@ Route::get('/site/listener', 'SiteController@listener');
 
 Route::get('/site/gettweets', 'SiteController@getTweets');
 
+Route::get('/site/pakoda', 'SiteController@pakoda');
+
